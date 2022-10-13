@@ -16,13 +16,11 @@
     box-shadow: nb-theme(popover-shadow);
     color: nb-theme(popover-text-color);
 
-    .primitive-overlay {
-      font-family: nb-theme(popover-text-font-family);
-      font-size: nb-theme(popover-text-font-size);
-      font-weight: nb-theme(popover-text-font-weight);
-      line-height: nb-theme(popover-text-line-height);
-      padding: nb-theme(popover-padding);
-    }
+    font-family: nb-theme(popover-text-font-family);
+    font-size: nb-theme(popover-text-font-size);
+    font-weight: nb-theme(popover-text-font-weight);
+    line-height: nb-theme(popover-text-line-height);
+    padding: nb-theme(popover-padding);
 
     .arrow {
       border-left: $arrow-size solid transparent;
